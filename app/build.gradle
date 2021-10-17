@@ -7,7 +7,6 @@ plugins {
 
 android {
     compileSdk 30
-
     defaultConfig {
         applicationId "com.akshayashokcode.pokedex"
         minSdk 23
@@ -99,5 +98,5 @@ dependencies {
     kapt "androidx.hilt:hilt-compiler:1.0.0-beta01"
     implementation 'androidx.hilt:hilt-navigation-compose:1.0.0-alpha01'
 
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.android.support:palette-v7:30.0.0'
 }
